@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 image = data.camera()
-sigma = 5
+sigma = 100
 
 smoothed_image = smooth_image(image, sigma)
 
